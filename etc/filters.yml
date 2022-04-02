@@ -1,0 +1,30 @@
+Reports/MultiQC/multiqc_data/multiqc_fastqc.txt:
+    File Format: FASTQ
+Reports/MultiQC/multiqc_data/multiqc_picard_dups.txt:
+    File Format: BAM
+Reports/MultiQC/multiqc_data/multiqc_qualimap_bamqc_genome_results.txt:
+    File Format: BAM
+Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt:
+    File Format: BAM
+Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt:
+    File Format: VCF
+multiqc/star_salmon/*_data/multiqc_fastqc.txt:
+    File Format: FASTQ
+multiqc/star_salmon/*_data/multiqc_cutadapt.txt:
+    File Format: FASTQ
+multiqc/star_salmon/*_data/multiqc_star.txt:
+    File Format: BAM
+multiqc/star_salmon/*_data/multiqc_picard_dups.txt:
+    File Format: BAM
+multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt:
+    File Format: BAM
+multiqc/star_salmon/*_data/multiqc_samtools_stats.txt:
+    File Format: BAM
+multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt:
+    File Format: BAM
+multiqc/star_salmon/*_data/multiqc_rseqc_infer_experiment.txt:
+    File Contents: star_salmon/quant.sf
+multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt:
+    File Contents: star_salmon/quant.sf
+multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt:
+    File Contents: star_salmon/quant.sf

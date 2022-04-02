@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+synapseclient = {ref = "develop", git = "https://github.com/Sage-Bionetworks/synapsePythonClient"}
+pandas = "*"
+google-auth-oauthlib = "<0.4.0"
+schematicpy = {ref = "bgrande/imcore", git = "https://github.com/Sage-Bionetworks/schematic.git"}
+pyyaml = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

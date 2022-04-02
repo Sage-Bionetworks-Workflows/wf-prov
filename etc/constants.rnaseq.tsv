@@ -1,0 +1,11 @@
+name	value	component
+Workflow Link	https://github.com/HTAN-DCC/rnaseq/blob/8094c42add6dcdf69ce54dfdec957789c37ae903/main.nf	
+Workflow Type	Sequencing Read Quality Control	BulkRNAseqLevel1
+Workflow Type	STAR 1-Pass with Mark Duplicates	BulkRNAseqLevel2
+Workflow Type	Salmon Alignment-Based Mode	BulkRNAseqLevel3
+Workflow Version	3.3	
+Genomic Reference	GRCm38	
+Genomic Reference URL	https://www.synapse.org/#!Synapse:syn26297155	
+Gene Annotations	Ensembl 81	
+Gene Annotations URL	https://www.synapse.org/#!Synapse:syn26297163	
+Pseudo Alignment Used	False

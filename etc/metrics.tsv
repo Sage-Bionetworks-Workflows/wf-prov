@@ -1,0 +1,325 @@
+component	attribute	filename	colname
+BulkRNAseqLevel1	FastQC - Quality Score Encoding	multiqc/star_salmon/*_data/multiqc_fastqc.txt	Encoding
+BulkRNAseqLevel1	FastQC - Total Sequences	multiqc/star_salmon/*_data/multiqc_fastqc.txt	Total Sequences
+BulkRNAseqLevel1	FastQC - Sequence Length Range	multiqc/star_salmon/*_data/multiqc_fastqc.txt	Sequence length
+BulkRNAseqLevel1	FastQC - Average Sequence Length	multiqc/star_salmon/*_data/multiqc_fastqc.txt	avg_sequence_length
+BulkRNAseqLevel1	FastQC - Percent GC	multiqc/star_salmon/*_data/multiqc_fastqc.txt	%GC
+BulkRNAseqLevel1	FastQC - Percent Total Deduplicated	multiqc/star_salmon/*_data/multiqc_fastqc.txt	total_deduplicated_percentage
+BulkRNAseqLevel1	FastQC - Per Base Sequence Quality	multiqc/star_salmon/*_data/multiqc_fastqc.txt	per_base_sequence_quality
+BulkRNAseqLevel1	FastQC - Per Tile Sequence Quality	multiqc/star_salmon/*_data/multiqc_fastqc.txt	per_tile_sequence_quality
+BulkRNAseqLevel1	FastQC - Per Sequence Quality Scores	multiqc/star_salmon/*_data/multiqc_fastqc.txt	per_sequence_quality_scores
+BulkRNAseqLevel1	FastQC - Per Base Sequence Content	multiqc/star_salmon/*_data/multiqc_fastqc.txt	per_base_sequence_content
+BulkRNAseqLevel1	FastQC - Per Sequence GC Content	multiqc/star_salmon/*_data/multiqc_fastqc.txt	per_sequence_gc_content
+BulkRNAseqLevel1	FastQC - Per Base N Content	multiqc/star_salmon/*_data/multiqc_fastqc.txt	per_base_n_content
+BulkRNAseqLevel1	FastQC - Sequence Length Distribution	multiqc/star_salmon/*_data/multiqc_fastqc.txt	sequence_length_distribution
+BulkRNAseqLevel1	FastQC - Sequence Duplication Levels	multiqc/star_salmon/*_data/multiqc_fastqc.txt	sequence_duplication_levels
+BulkRNAseqLevel1	FastQC - Overrepresented Sequences	multiqc/star_salmon/*_data/multiqc_fastqc.txt	overrepresented_sequences
+BulkRNAseqLevel1	FastQC - Adapter Content	multiqc/star_salmon/*_data/multiqc_fastqc.txt	adapter_content
+BulkRNAseqLevel1	Cutadapt - Reads Processed	multiqc/star_salmon/*_data/multiqc_cutadapt.txt	r_processed
+BulkRNAseqLevel1	Cutadapt - Reads With Adapters	multiqc/star_salmon/*_data/multiqc_cutadapt.txt	r_with_adapters
+BulkRNAseqLevel1	Cutadapt - Reads Written	multiqc/star_salmon/*_data/multiqc_cutadapt.txt	r_written
+BulkRNAseqLevel1	Cutadapt - Basepairs Processed	multiqc/star_salmon/*_data/multiqc_cutadapt.txt	bp_processed
+BulkRNAseqLevel1	Cutadapt - Basepairs Quality-Trimmed	multiqc/star_salmon/*_data/multiqc_cutadapt.txt	quality_trimmed
+BulkRNAseqLevel1	Cutadapt - Basepairs Written	multiqc/star_salmon/*_data/multiqc_cutadapt.txt	bp_written
+BulkRNAseqLevel1	Cutadapt - Percent Basepairs Trimmed	multiqc/star_salmon/*_data/multiqc_cutadapt.txt	percent_trimmed
+BulkRNAseqLevel2	STAR - Input Reads	multiqc/star_salmon/*_data/multiqc_star.txt	total_reads
+BulkRNAseqLevel2	STAR - Average Read Length	multiqc/star_salmon/*_data/multiqc_star.txt	avg_input_read_length
+BulkRNAseqLevel2	STAR - Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	uniquely_mapped
+BulkRNAseqLevel2	STAR - Percent Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	uniquely_mapped_percent
+BulkRNAseqLevel2	STAR - Average Length For Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	avg_mapped_read_length
+BulkRNAseqLevel2	STAR - Splices for Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	num_splices
+BulkRNAseqLevel2	STAR - Annotated Splices For Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	num_annotated_splices
+BulkRNAseqLevel2	STAR - GT/AG Splices For Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	num_GTAG_splices
+BulkRNAseqLevel2	STAR - GC/AG Splices For Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	num_GCAG_splices
+BulkRNAseqLevel2	STAR - AT/AC Splices For Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	num_ATAC_splices
+BulkRNAseqLevel2	STAR - Noncanonical Splices For Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	num_noncanonical_splices
+BulkRNAseqLevel2	STAR - Percent Mismatch Per Base For Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	mismatch_rate
+BulkRNAseqLevel2	STAR - Percent Deletion Per Base For Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	deletion_rate
+BulkRNAseqLevel2	STAR - Average Deletion Length For Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	deletion_length
+BulkRNAseqLevel2	STAR - Percent Insertion Per Base For Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	insertion_rate
+BulkRNAseqLevel2	STAR - Average Insertion Length For Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	insertion_length
+BulkRNAseqLevel2	STAR - Multimapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	multimapped
+BulkRNAseqLevel2	STAR - Percent Multimapped Reads	multiqc/star_salmon/*_data/multiqc_star.txt	multimapped_percent
+BulkRNAseqLevel2	STAR - Reads Mapped To Too Many Loci	multiqc/star_salmon/*_data/multiqc_star.txt	multimapped_toomany
+BulkRNAseqLevel2	STAR - Percent Reads Mapped To Too Many Loci	multiqc/star_salmon/*_data/multiqc_star.txt	multimapped_toomany_percent
+BulkRNAseqLevel2	STAR - Percent Unmapped Reads Due To Mismatches	multiqc/star_salmon/*_data/multiqc_star.txt	unmapped_mismatches_percent
+BulkRNAseqLevel2	STAR - Percent Unmapped Reads Due To Being Too Short	multiqc/star_salmon/*_data/multiqc_star.txt	unmapped_tooshort_percent
+BulkRNAseqLevel2	STAR - Percent Unmapped Reads Due To Other Reasons	multiqc/star_salmon/*_data/multiqc_star.txt	unmapped_other_percent
+BulkRNAseqLevel2	STAR - Unmapped Reads Due To Mismatches	multiqc/star_salmon/*_data/multiqc_star.txt	unmapped_mismatches
+BulkRNAseqLevel2	STAR - Unmapped Reads Due To Being Too Short	multiqc/star_salmon/*_data/multiqc_star.txt	unmapped_tooshort
+BulkRNAseqLevel2	STAR - Unmapped Reads Due To Other Reasons	multiqc/star_salmon/*_data/multiqc_star.txt	unmapped_other
+BulkRNAseqLevel2	Picard - Unpaired Reads Examined	multiqc/star_salmon/*_data/multiqc_picard_dups.txt	UNPAIRED_READS_EXAMINED
+BulkRNAseqLevel2	Picard - Read Pairs Examined	multiqc/star_salmon/*_data/multiqc_picard_dups.txt	READ_PAIRS_EXAMINED
+BulkRNAseqLevel2	Picard - Secondary Or Supplementary Reads	multiqc/star_salmon/*_data/multiqc_picard_dups.txt	SECONDARY_OR_SUPPLEMENTARY_RDS
+BulkRNAseqLevel2	Picard - Unmapped Reads	multiqc/star_salmon/*_data/multiqc_picard_dups.txt	UNMAPPED_READS
+BulkRNAseqLevel2	Picard - Unpaired Read Duplicates	multiqc/star_salmon/*_data/multiqc_picard_dups.txt	UNPAIRED_READ_DUPLICATES
+BulkRNAseqLevel2	Picard - Read Pair Duplicates	multiqc/star_salmon/*_data/multiqc_picard_dups.txt	READ_PAIR_DUPLICATES
+BulkRNAseqLevel2	Picard - Read Pair Optical Duplicates	multiqc/star_salmon/*_data/multiqc_picard_dups.txt	READ_PAIR_OPTICAL_DUPLICATES
+BulkRNAseqLevel2	Picard - Fraction Of Duplicate Reads	multiqc/star_salmon/*_data/multiqc_picard_dups.txt	PERCENT_DUPLICATION
+BulkRNAseqLevel2	Picard - Estimated Library Size	multiqc/star_salmon/*_data/multiqc_picard_dups.txt	ESTIMATED_LIBRARY_SIZE
+BulkRNAseqLevel2	Samtools - Total Reads	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	flagstat_total
+BulkRNAseqLevel2	Samtools - Total Reads Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	total_passed
+BulkRNAseqLevel2	Samtools - Total Reads Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	total_failed
+BulkRNAseqLevel2	Samtools - Secondary Reads Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	secondary_passed
+BulkRNAseqLevel2	Samtools - Secondary Reads Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	secondary_failed
+BulkRNAseqLevel2	Samtools - Supplementary Reads Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	supplementary_passed
+BulkRNAseqLevel2	Samtools - Supplementary Reads Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	supplementary_failed
+BulkRNAseqLevel2	Samtools - Duplicate Reads Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	duplicates_passed
+BulkRNAseqLevel2	Samtools - Duplicate Reads Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	duplicates_failed
+BulkRNAseqLevel2	Samtools - Mapped Reads Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	mapped_passed
+BulkRNAseqLevel2	Samtools - Mapped Reads Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	mapped_failed
+BulkRNAseqLevel2	Samtools - Percent Mapped Reads Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	mapped_passed_pct
+BulkRNAseqLevel2	Samtools - Percent Mapped Reads Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	mapped_failed_pct
+BulkRNAseqLevel2	Samtools - Reads Paired In Sequencing Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	paired In sequencing_passed
+BulkRNAseqLevel2	Samtools - Reads Paired In Sequencing Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	paired In sequencing_failed
+BulkRNAseqLevel2	Samtools - Forward Reads Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	read1_passed
+BulkRNAseqLevel2	Samtools - Forward Reads Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	read1_failed
+BulkRNAseqLevel2	Samtools - Reverse Reads Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	read2_passed
+BulkRNAseqLevel2	Samtools - Reverse Reads Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	read2_failed
+BulkRNAseqLevel2	Samtools - Properly Paired Reads Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	properly paired_passed
+BulkRNAseqLevel2	Samtools - Properly Paired Reads Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	properly paired_failed
+BulkRNAseqLevel2	Samtools - Percent Properly Paired Reads Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	properly paired_passed_pct
+BulkRNAseqLevel2	Samtools - Percent Properly Paired Reads Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	properly paired_failed_pct
+BulkRNAseqLevel2	Samtools - Reads With Themselves And Mates Mapped Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	with itself and mate mapped_passed
+BulkRNAseqLevel2	Samtools - Reads With Themselves And Mates Mapped Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	with itself and mate mapped_failed
+BulkRNAseqLevel2	Samtools - Singleton Reads Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	singletons_passed
+BulkRNAseqLevel2	Samtools - Singleton Reads Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	singletons_failed
+BulkRNAseqLevel2	Samtools - Percent Singleton Reads Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	singletons_passed_pct
+BulkRNAseqLevel2	Samtools - Percent Singleton Reads Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	singletons_failed_pct
+BulkRNAseqLevel2	Samtools - Reads With Mates Mapped To Different Chromosomes Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	with mate mapped to a different chr_passed
+BulkRNAseqLevel2	Samtools - Reads With Mates Mapped To Different Chromosomes Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	with mate mapped to a different chr_failed
+BulkRNAseqLevel2	Samtools - Reads With Mates Mapped To Different Chromosomes (Mapping Quality Over 5) Passed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	with mate mapped to a different chr (mapQ >= 5)_passed
+BulkRNAseqLevel2	Samtools - Reads With Mates Mapped To Different Chromosomes (Mapping Quality Over 5) Failed	multiqc/star_salmon/*_data/multiqc_samtools_flagstat.txt	with mate mapped to a different chr (mapQ >= 5)_failed
+BulkRNAseqLevel2	Samtools - Raw Total Sequences	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	raw_total_sequences
+BulkRNAseqLevel2	Samtools - Filtered Sequences	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	filtered_sequences
+BulkRNAseqLevel2	Samtools - Sequences	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	sequences
+BulkRNAseqLevel2	Samtools - Is Sorted	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	is_sorted
+BulkRNAseqLevel2	Samtools - First Fragments	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	1st_fragments
+BulkRNAseqLevel2	Samtools - Last Fragments	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	last_fragments
+BulkRNAseqLevel2	Samtools - Reads Mapped	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_mapped
+BulkRNAseqLevel2	Samtools - Reads Mapped And Paired	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_mapped_and_paired
+BulkRNAseqLevel2	Samtools - Reads Unmapped	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_unmapped
+BulkRNAseqLevel2	Samtools - Reads Properly Paired	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_properly_paired
+BulkRNAseqLevel2	Samtools - Paired Reads	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_paired
+BulkRNAseqLevel2	Samtools - Reads Duplicated	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_duplicated
+BulkRNAseqLevel2	Samtools - Reads MQ0	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_MQ0
+BulkRNAseqLevel2	Samtools - Reads QC Failed	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_QC_failed
+BulkRNAseqLevel2	Samtools - Non-Primary Alignments	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	non-primary_alignments
+BulkRNAseqLevel2	Samtools - Supplementary Alignments	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	supplementary_alignments
+BulkRNAseqLevel2	Samtools - Total Length	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	total_length
+BulkRNAseqLevel2	Samtools - Total First Fragment Length	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	total_first_fragment_length
+BulkRNAseqLevel2	Samtools - Total Last Fragment Length	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	total_last_fragment_length
+BulkRNAseqLevel2	Samtools - Bases Mapped	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	bases_mapped
+BulkRNAseqLevel2	Samtools - Bases Mapped (CIGAR)	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	bases_mapped_(cigar)
+BulkRNAseqLevel2	Samtools - Bases Trimmed	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	bases_trimmed
+BulkRNAseqLevel2	Samtools - Bases Duplicated	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	bases_duplicated
+BulkRNAseqLevel2	Samtools - Mismatches	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	mismatches
+BulkRNAseqLevel2	Samtools - Error Rate	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	error_rate
+BulkRNAseqLevel2	Samtools - Average Length	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	average_length
+BulkRNAseqLevel2	Samtools - Average First Fragment Length	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	average_first_fragment_length
+BulkRNAseqLevel2	Samtools - Average Last Fragment Length	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	average_last_fragment_length
+BulkRNAseqLevel2	Samtools - Maximum Length	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	maximum_length
+BulkRNAseqLevel2	Samtools - Maximum First Fragment Length	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	maximum_first_fragment_length
+BulkRNAseqLevel2	Samtools - Maximum Last Fragment Length	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	maximum_last_fragment_length
+BulkRNAseqLevel2	Samtools - Average Quality	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	average_quality
+BulkRNAseqLevel2	Samtools - Insert Size Average	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	insert_size_average
+BulkRNAseqLevel2	Samtools - Insert Size Standard Deviation	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	insert_size_standard_deviation
+BulkRNAseqLevel2	Samtools - Inward Oriented Pairs	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	inward_oriented_pairs
+BulkRNAseqLevel2	Samtools - Outward Oriented Pairs	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	outward_oriented_pairs
+BulkRNAseqLevel2	Samtools - Pairs With Other Orientation	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	pairs_with_other_orientation
+BulkRNAseqLevel2	Samtools - Pairs On Different Chromosomes	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	pairs_on_different_chromosomes
+BulkRNAseqLevel2	Samtools - Percent Properly Paired Reads	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	percentage_of_properly_paired_reads_(%)
+BulkRNAseqLevel2	Samtools - Percent Reads Mapped	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_mapped_percent
+BulkRNAseqLevel2	Samtools - Percent Reads Mapped And Paired	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_mapped_and_paired_percent
+BulkRNAseqLevel2	Samtools - Percent Reads Unmapped	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_unmapped_percent
+BulkRNAseqLevel2	Samtools - Percent Reads Properly Paired	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_properly_paired_percent
+BulkRNAseqLevel2	Samtools - Percent Paired	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_paired_percent
+BulkRNAseqLevel2	Samtools - Percent Reads Duplicated	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_duplicated_percent
+BulkRNAseqLevel2	Samtools - Percent Reads MQ0	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_MQ0_percent
+BulkRNAseqLevel2	Samtools - Percent Reads QC Failed	multiqc/star_salmon/*_data/multiqc_samtools_stats.txt	reads_QC_failed_percent
+BulkRNAseqLevel2	RSeQC - Total Records	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	total_records
+BulkRNAseqLevel2	RSeQC - QC-Failed Reads	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	qc_failed
+BulkRNAseqLevel2	RSeQC - Optical/PCR Duplicate Reads	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	optical_pcr_duplicate
+BulkRNAseqLevel2	RSeQC - Non-Primary Reads	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	non_primary_hits
+BulkRNAseqLevel2	RSeQC - Unmapped Reads	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	unmapped_reads
+BulkRNAseqLevel2	RSeQC - Non-Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	mapq_lt_mapq_cut_non-unique
+BulkRNAseqLevel2	RSeQC - Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	mapq_gte_mapq_cut_unique
+BulkRNAseqLevel2	RSeQC - Forward Reads	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	read_1
+BulkRNAseqLevel2	RSeQC - Reverse Reads	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	read_2
+BulkRNAseqLevel2	RSeQC - Reads Mapping To Sense Strand	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	reads_map_to_sense
+BulkRNAseqLevel2	RSeQC - Reads Mapping To Antisense Strand	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	reads_map_to_antisense
+BulkRNAseqLevel2	RSeQC - Non-Splice Reads	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	non-splice_reads
+BulkRNAseqLevel2	RSeQC - Splice Reads	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	splice_reads
+BulkRNAseqLevel2	RSeQC - Reads Mapped In Proper Pairs	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	reads_mapped_in_proper_pairs
+BulkRNAseqLevel2	RSeQC - Proper-Paired Reads Mapping To Different Chromosomes	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	proper-paired_reads_map_to_different_chrom
+BulkRNAseqLevel2	RSeQC - Percent Uniquely Mapped Reads	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	unique_percent
+BulkRNAseqLevel2	RSeQC - Percent Reads Mapped In Proper Pairs	multiqc/star_salmon/*_data/multiqc_rseqc_bam_stat.txt	proper_pairs_percent
+BulkRNAseqLevel3	RSeQC - Fraction Supporting Read 1 From Sense Strand	multiqc/star_salmon/*_data/multiqc_rseqc_infer_experiment.txt	pe_sense
+BulkRNAseqLevel3	RSeQC - Fraction Supporting Read 1 From Antisense Strand	multiqc/star_salmon/*_data/multiqc_rseqc_infer_experiment.txt	pe_antisense
+BulkRNAseqLevel3	RSeQC - Fraction Unknown	multiqc/star_salmon/*_data/multiqc_rseqc_infer_experiment.txt	failed
+BulkRNAseqLevel3	RSeQC - Total Splicing Events	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	total_splicing_events
+BulkRNAseqLevel3	RSeQC - Known Splicing Events	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	known_splicing_events
+BulkRNAseqLevel3	RSeQC - Partial Novel Splicing Events	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	partial_novel_splicing_events
+BulkRNAseqLevel3	RSeQC - Novel Splicing Events	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	novel_splicing_events
+BulkRNAseqLevel3	RSeQC - Total Splicing Junctions	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	total_splicing_junctions
+BulkRNAseqLevel3	RSeQC - Known Splicing Junctions	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	known_splicing_junctions
+BulkRNAseqLevel3	RSeQC - Partial Novel Splicing Junctions	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	partial_novel_splicing_junctions
+BulkRNAseqLevel3	RSeQC - Novel Splicing Junctions	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	novel_splicing_junctions
+BulkRNAseqLevel3	RSeQC - Percent Known Splicing Events	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	known_splicing_events_pct
+BulkRNAseqLevel3	RSeQC - Percent Partial Novel Splicing Events	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	partial_novel_splicing_events_pct
+BulkRNAseqLevel3	RSeQC - Percent Novel Splicing Events	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	novel_splicing_events_pct
+BulkRNAseqLevel3	RSeQC - Percent Known Splicing Junctions	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	known_splicing_junctions_pct
+BulkRNAseqLevel3	RSeQC - Percent Partial Novel Splicing Junctions	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	partial_novel_splicing_junctions_pct
+BulkRNAseqLevel3	RSeQC - Percent Novel Splicing Junctions	multiqc/star_salmon/*_data/multiqc_rseqc_junction_annotation.txt	novel_splicing_junctions_pct
+BulkRNAseqLevel3	RSeQC - Total Reads	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	total_reads
+BulkRNAseqLevel3	RSeQC - Total Tags	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	total_tags
+BulkRNAseqLevel3	RSeQC - Total Assigned Tags	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	total_assigned_tags
+BulkRNAseqLevel3	RSeQC - Total Bases In CDS Exons	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	cds_exons_total_bases
+BulkRNAseqLevel3	RSeQC - Tag Count In CDS Exons	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	cds_exons_tag_count
+BulkRNAseqLevel3	RSeQC - Tags Per Kb In CDS Exons	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	cds_exons_tags_kb
+BulkRNAseqLevel3	RSeQC - Total Bases In 5'UTR Exons	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	5_utr_exons_total_bases
+BulkRNAseqLevel3	RSeQC - Tag Count In 5'UTR Exons	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	5_utr_exons_tag_count
+BulkRNAseqLevel3	RSeQC - Tags Per Kb In 5'UTR Exons	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	5_utr_exons_tags_kb
+BulkRNAseqLevel3	RSeQC - Total Bases In 3'UTR Exons	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	3_utr_exons_total_bases
+BulkRNAseqLevel3	RSeQC - Tag Count In 3'UTR Exons	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	3_utr_exons_tag_count
+BulkRNAseqLevel3	RSeQC - Tags Per Kb In 3'UTR Exons	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	3_utr_exons_tags_kb
+BulkRNAseqLevel3	RSeQC - Total Bases In Introns	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	introns_total_bases
+BulkRNAseqLevel3	RSeQC - Tag Count In Introns	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	introns_tag_count
+BulkRNAseqLevel3	RSeQC - Tags Per Kb In Introns	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	introns_tags_kb
+BulkRNAseqLevel3	RSeQC - Total Bases Within 1kb Upstream Of TSS	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tss_up_1kb_total_bases
+BulkRNAseqLevel3	RSeQC - Tag Count Within 1kb Upstream Of TSS	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tss_up_1kb_tag_count
+BulkRNAseqLevel3	RSeQC - Tags Per Kb Within 1kb Upstream Of TSS	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tss_up_1kb_tags_kb
+BulkRNAseqLevel3	RSeQC - Total Bases Within 5kb Upstream Of TSS	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tss_up_5kb_total_bases
+BulkRNAseqLevel3	RSeQC - Tag Count Within 5kb Upstream Of TSS	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tss_up_5kb_tag_count
+BulkRNAseqLevel3	RSeQC - Tags Per Kb Within 5kb Upstream Of TSS	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tss_up_5kb_tags_kb
+BulkRNAseqLevel3	RSeQC - Total Bases Within 10kb Upstream Of TSS	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tss_up_10kb_total_bases
+BulkRNAseqLevel3	RSeQC - Tag Count Within 10kb Upstream Of TSS	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tss_up_10kb_tag_count
+BulkRNAseqLevel3	RSeQC - Tags Per Kb Within 10kb Upstream Of TSS	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tss_up_10kb_tags_kb
+BulkRNAseqLevel3	RSeQC - Total Bases Within 1kb Downstream Of TES	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tes_down_1kb_total_bases
+BulkRNAseqLevel3	RSeQC - Tag Count Within 1kb Downstream Of TES	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tes_down_1kb_tag_count
+BulkRNAseqLevel3	RSeQC - Tags Per Kb Within 1kb Downstream Of TES	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tes_down_1kb_tags_kb
+BulkRNAseqLevel3	RSeQC - Total Bases Within 5kb Downstream Of TES	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tes_down_5kb_total_bases
+BulkRNAseqLevel3	RSeQC - Tag Count Within 5kb Downstream Of TES	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tes_down_5kb_tag_count
+BulkRNAseqLevel3	RSeQC - Tags Per Kb Within 5kb Downstream Of TES	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tes_down_5kb_tags_kb
+BulkRNAseqLevel3	RSeQC - Total Bases Within 10kb Downstream Of TES	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tes_down_10kb_total_bases
+BulkRNAseqLevel3	RSeQC - Tag Count Within 10kb Downstream Of TES	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tes_down_10kb_tag_count
+BulkRNAseqLevel3	RSeQC - Tags Per Kb Within 10kb Downstream Of TES	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tes_down_10kb_tags_kb
+BulkRNAseqLevel3	RSeQC - Tag Count In Other Intergenic Regions	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	other_intergenic_tag_count
+BulkRNAseqLevel3	RSeQC - Percent Tags In CDS Exons	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	cds_exons_tag_pct
+BulkRNAseqLevel3	RSeQC - Percent Tags In 5'UTR Exons	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	5_utr_exons_tag_pct
+BulkRNAseqLevel3	RSeQC - Percent Tags In 3'UTR Exons	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	3_utr_exons_tag_pct
+BulkRNAseqLevel3	RSeQC - Percent Tags In Introns	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	introns_tag_pct
+BulkRNAseqLevel3	RSeQC - Percent Tags Within 1kb Upstream Of TSS	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tss_up_1kb_tag_pct
+BulkRNAseqLevel3	RSeQC - Percent Tags Within 5kb Upstream Of TSS	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tss_up_5kb_tag_pct
+BulkRNAseqLevel3	RSeQC - Percent Tags Within 10kb Upstream Of TSS	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tss_up_10kb_tag_pct
+BulkRNAseqLevel3	RSeQC - Percent Tags Within 1kb Downstream Of TES	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tes_down_1kb_tag_pct
+BulkRNAseqLevel3	RSeQC - Percent Tags Within 5kb Downstream Of TES	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tes_down_5kb_tag_pct
+BulkRNAseqLevel3	RSeQC - Percent Tags Within 10kb Downstream Of TES	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	tes_down_10kb_tag_pct
+BulkRNAseqLevel3	RSeQC - Percent Tags In Other Intergenic Regions	multiqc/star_salmon/*_data/multiqc_rseqc_read_distribution.txt	other_intergenic_tag_pct
+BulkWESLevel1	FastQC - Percent GC	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	%GC
+BulkWESLevel1	FastQC - Adapter Content	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	adapter_content
+BulkWESLevel1	FastQC - Average Sequence Length	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	avg_sequence_length
+BulkWESLevel1	FastQC - Quality Score Encoding	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	Encoding
+BulkWESLevel1	FastQC - Overrepresented Sequences	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	overrepresented_sequences
+BulkWESLevel1	FastQC - Per Base N Content	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	per_base_n_content
+BulkWESLevel1	FastQC - Per Base Sequence Content	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	per_base_sequence_content
+BulkWESLevel1	FastQC - Per Base Sequence Quality	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	per_base_sequence_quality
+BulkWESLevel1	FastQC - Per Sequence GC Content	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	per_sequence_gc_content
+BulkWESLevel1	FastQC - Per Sequence Quality Scores	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	per_sequence_quality_scores
+BulkWESLevel1	FastQC - Per Tile Sequence Quality	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	per_tile_sequence_quality
+BulkWESLevel1	FastQC - Sequence Length Range	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	Sequence length
+BulkWESLevel1	FastQC - Sequence Duplication Levels	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	sequence_duplication_levels
+BulkWESLevel1	FastQC - Sequence Length Distribution	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	sequence_length_distribution
+BulkWESLevel1	FastQC - Total Sequences	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	Total Sequences
+BulkWESLevel1	FastQC - Percent Total Deduplicated	Reports/MultiQC/multiqc_data/multiqc_fastqc.txt	total_deduplicated_percentage
+BulkWESLevel2	Picard - Estimated Library Size	Reports/MultiQC/multiqc_data/multiqc_picard_dups.txt	ESTIMATED_LIBRARY_SIZE
+BulkWESLevel2	Picard - Fraction Of Duplicate Reads	Reports/MultiQC/multiqc_data/multiqc_picard_dups.txt	PERCENT_DUPLICATION
+BulkWESLevel2	Picard - Read Pair Duplicates	Reports/MultiQC/multiqc_data/multiqc_picard_dups.txt	READ_PAIR_DUPLICATES
+BulkWESLevel2	Picard - Read Pair Optical Duplicates	Reports/MultiQC/multiqc_data/multiqc_picard_dups.txt	READ_PAIR_OPTICAL_DUPLICATES
+BulkWESLevel2	Picard - Read Pairs Examined	Reports/MultiQC/multiqc_data/multiqc_picard_dups.txt	READ_PAIRS_EXAMINED
+BulkWESLevel2	Picard - Secondary Or Supplementary Reads	Reports/MultiQC/multiqc_data/multiqc_picard_dups.txt	SECONDARY_OR_SUPPLEMENTARY_RDS
+BulkWESLevel2	Picard - Unmapped Reads	Reports/MultiQC/multiqc_data/multiqc_picard_dups.txt	UNMAPPED_READS
+BulkWESLevel2	Picard - Unpaired Read Duplicates	Reports/MultiQC/multiqc_data/multiqc_picard_dups.txt	UNPAIRED_READ_DUPLICATES
+BulkWESLevel2	Picard - Unpaired Reads Examined	Reports/MultiQC/multiqc_data/multiqc_picard_dups.txt	UNPAIRED_READS_EXAMINED
+BulkWESLevel2	Qualimap - General Error Rate	Reports/MultiQC/multiqc_data/multiqc_qualimap_bamqc_genome_results.txt	general_error_rate
+BulkWESLevel2	Qualimap - Mapped Bases	Reports/MultiQC/multiqc_data/multiqc_qualimap_bamqc_genome_results.txt	mapped_bases
+BulkWESLevel2	Qualimap - Mapped Reads	Reports/MultiQC/multiqc_data/multiqc_qualimap_bamqc_genome_results.txt	mapped_reads
+BulkWESLevel2	Qualimap - Mean Insert Size	Reports/MultiQC/multiqc_data/multiqc_qualimap_bamqc_genome_results.txt	mean_insert_size
+BulkWESLevel2	Qualimap - Mean Mapping Quality	Reports/MultiQC/multiqc_data/multiqc_qualimap_bamqc_genome_results.txt	mean_mapping_quality
+BulkWESLevel2	Qualimap - Median Insert Size	Reports/MultiQC/multiqc_data/multiqc_qualimap_bamqc_genome_results.txt	median_insert_size
+BulkWESLevel2	Qualimap - Percent Aligned	Reports/MultiQC/multiqc_data/multiqc_qualimap_bamqc_genome_results.txt	percentage_aligned
+BulkWESLevel2	Qualimap - Sequenced Bases	Reports/MultiQC/multiqc_data/multiqc_qualimap_bamqc_genome_results.txt	sequenced_bases
+BulkWESLevel2	Qualimap - Total Reads	Reports/MultiQC/multiqc_data/multiqc_qualimap_bamqc_genome_results.txt	total_reads
+BulkWESLevel2	Samtools - First Fragments	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	1st_fragments
+BulkWESLevel2	Samtools - Average First Fragment Length	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	average_first_fragment_length
+BulkWESLevel2	Samtools - Average Last Fragment Length	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	average_last_fragment_length
+BulkWESLevel2	Samtools - Average Length	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	average_length
+BulkWESLevel2	Samtools - Average Quality	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	average_quality
+BulkWESLevel2	Samtools - Bases Duplicated	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	bases_duplicated
+BulkWESLevel2	Samtools - Bases Mapped	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	bases_mapped
+BulkWESLevel2	Samtools - Bases Mapped (CIGAR)	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	bases_mapped_(cigar)
+BulkWESLevel2	Samtools - Bases Trimmed	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	bases_trimmed
+BulkWESLevel2	Samtools - Error Rate	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	error_rate
+BulkWESLevel2	Samtools - Filtered Sequences	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	filtered_sequences
+BulkWESLevel2	Samtools - Insert Size Average	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	insert_size_average
+BulkWESLevel2	Samtools - Insert Size Standard Deviation	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	insert_size_standard_deviation
+BulkWESLevel2	Samtools - Inward Oriented Pairs	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	inward_oriented_pairs
+BulkWESLevel2	Samtools - Is Sorted	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	is_sorted
+BulkWESLevel2	Samtools - Last Fragments	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	last_fragments
+BulkWESLevel2	Samtools - Maximum First Fragment Length	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	maximum_first_fragment_length
+BulkWESLevel2	Samtools - Maximum Last Fragment Length	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	maximum_last_fragment_length
+BulkWESLevel2	Samtools - Maximum Length	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	maximum_length
+BulkWESLevel2	Samtools - Mismatches	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	mismatches
+BulkWESLevel2	Samtools - Non-Primary Alignments	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	non-primary_alignments
+BulkWESLevel2	Samtools - Outward Oriented Pairs	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	outward_oriented_pairs
+BulkWESLevel2	Samtools - Pairs On Different Chromosomes	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	pairs_on_different_chromosomes
+BulkWESLevel2	Samtools - Pairs With Other Orientation	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	pairs_with_other_orientation
+BulkWESLevel2	Samtools - Percent Properly Paired Reads	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	percentage_of_properly_paired_reads_(%)
+BulkWESLevel2	Samtools - Raw Total Sequences	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	raw_total_sequences
+BulkWESLevel2	Samtools - Reads Duplicated	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_duplicated
+BulkWESLevel2	Samtools - Percent Reads Duplicated	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_duplicated_percent
+BulkWESLevel2	Samtools - Reads Mapped	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_mapped
+BulkWESLevel2	Samtools - Reads Mapped And Paired	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_mapped_and_paired
+BulkWESLevel2	Samtools - Percent Reads Mapped And Paired	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_mapped_and_paired_percent
+BulkWESLevel2	Samtools - Percent Reads Mapped	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_mapped_percent
+BulkWESLevel2	Samtools - Reads MQ0	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_MQ0
+BulkWESLevel2	Samtools - Percent Reads MQ0	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_MQ0_percent
+BulkWESLevel2	Samtools - Paired Reads	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_paired
+BulkWESLevel2	Samtools - Percent Paired	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_paired_percent
+BulkWESLevel2	Samtools - Reads Properly Paired	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_properly_paired
+BulkWESLevel2	Samtools - Percent Reads Properly Paired	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_properly_paired_percent
+BulkWESLevel2	Samtools - Reads QC Failed	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_QC_failed
+BulkWESLevel2	Samtools - Percent Reads QC Failed	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_QC_failed_percent
+BulkWESLevel2	Samtools - Reads Unmapped	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_unmapped
+BulkWESLevel2	Samtools - Percent Reads Unmapped	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	reads_unmapped_percent
+BulkWESLevel2	Samtools - Sequences	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	sequences
+BulkWESLevel2	Samtools - Total First Fragment Length	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	total_first_fragment_length
+BulkWESLevel2	Samtools - Total Last Fragment Length	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	total_last_fragment_length
+BulkWESLevel2	Samtools - Total Length	Reports/MultiQC/multiqc_data/multiqc_samtools_stats.txt	total_length
+BulkWESLevel3	BCFtools - Indels	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	number_of_indels
+BulkWESLevel3	BCFtools - Multinucleotide Polymorphisms	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	number_of_MNPs
+BulkWESLevel3	BCFtools - Multiallelic Sites	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	number_of_multiallelic_sites
+BulkWESLevel3	BCFtools - Multiallelic Single Nucleotide Polymorphism Sites	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	number_of_multiallelic_SNP_sites
+BulkWESLevel3	BCFtools - No Alternate Alleles	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	number_of_no-ALTs
+BulkWESLevel3	BCFtools - Others	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	number_of_others
+BulkWESLevel3	BCFtools - Records	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	number_of_records
+BulkWESLevel3	BCFtools - Samples	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	number_of_samples
+BulkWESLevel3	BCFtools - Single Nucleotide Polymorphisms	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	number_of_SNPs
+BulkWESLevel3	BCFtools - Substitution Type A>C	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	substitution_type_A>C
+BulkWESLevel3	BCFtools - Substitution Type A>G	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	substitution_type_A>G
+BulkWESLevel3	BCFtools - Substitution Type A>T	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	substitution_type_A>T
+BulkWESLevel3	BCFtools - Substitution Type C>A	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	substitution_type_C>A
+BulkWESLevel3	BCFtools - Substitution Type C>G	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	substitution_type_C>G
+BulkWESLevel3	BCFtools - Substitution Type C>T	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	substitution_type_C>T
+BulkWESLevel3	BCFtools - Substitution Type G>A	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	substitution_type_G>A
+BulkWESLevel3	BCFtools - Substitution Type G>C	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	substitution_type_G>C
+BulkWESLevel3	BCFtools - Substitution Type G>T	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	substitution_type_G>T
+BulkWESLevel3	BCFtools - Substitution Type T>A	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	substitution_type_T>A
+BulkWESLevel3	BCFtools - Substitution Type T>C	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	substitution_type_T>C
+BulkWESLevel3	BCFtools - Substitution Type T>G	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	substitution_type_T>G
+BulkWESLevel3	BCFtools - Transitions	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	ts
+BulkWESLevel3	BCFtools - Transitions First Alternate Allele Only	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	ts_1st_ALT
+BulkWESLevel3	BCFtools - Transition/Transversion Ratio	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	tstv
+BulkWESLevel3	BCFtools - Transition/Transversion Ratio First Alternate Allele Only	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	tstv_1st_ALT
+BulkWESLevel3	BCFtools - Transversions	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	tv
+BulkWESLevel3	BCFtools - Transversions First Alternate Allele Only	Reports/MultiQC/multiqc_data/multiqc_bcftools_stats.txt	tv_1st_ALT

@@ -1,0 +1,8 @@
+name	value	component
+Workflow Link	https://github.com/HTAN-DCC/sarek/blob/68b9930a74962f3c42eee71f51e6dd2646269199/main.nf	
+Workflow Type	Sequencing Read Quality Control	BulkWESLevel1
+Workflow Type	BWA MEM with Mark Duplicates	BulkWESLevel2
+Workflow Type	Variant Calling with Strelka and Manta	BulkWESLevel3
+Workflow Version	2.7.1	
+Genomic Reference	GRCh38	
+Genomic Reference URL	https://www.synapse.org/#!Synapse:syn26401347	
